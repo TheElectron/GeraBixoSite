@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> GeraBixo </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    </head>
+    
+    <body>
+        <header class="wrapper">
+            <nav>
+                <div class="logo"> Logo </div>
+                <ul>
+                    <li> <a href="#"> Home </a> </li>
+                    <li> <a href="#"> Professores </a> </li>
+                    <li> <a href="#"> Processo Seletivo </a> </li>
+                    <li> <a href="#"> Aulas e Simulados </a> </li>
+                    <li> <a href="#" class="active"> Login </a> </li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+                
+        <section class="slidershow middle">
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <input type="radio" name="r" id="r4">
+                <input type="radio" name="r" id="r5">
+                
+                <div class="slide s1">
+                    <img src="images/math.jpeg" alt="">
+                </div>
+                
+                <div class="slide">
+                    <img src="images/quim.jpeg" alt="">
+                </div>
+                
+                <div class="slide">
+                    <img src="images/biology.jpeg" alt="">
+                </div>
+                
+                <div class="slide">
+                    <img src="images/books.jpeg" alt="">
+                </div>
+                
+                <div class="slide">
+                    <img src="images/fis.jpeg" alt="">
+                </div>
+                
+            </div>
+            
+            <div class="navigation">
+                <label for="r1" class="bar"> </label>
+                <label for="r2" class="bar"> </label>
+                <label for="r3" class="bar"> </label>
+                <label for="r4" class="bar"> </label>
+                <label for="r5" class="bar"> </label>
+            </div>
+        </section>
+        
+        <section class="sec1"> </section>
+        <section class="content">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a sem tincidunt, tincidunt ex ut, scelerisque libero. Sed sed consequat felis. Pellentesque in tristique massa. Donec et nibh sit amet nisi maximus eleifend. Ut faucibus mauris ac lorem laoreet blandit. Aenean tincidunt justo id nisi fringilla ornare. Ut eu mi auctor nisl tincidunt tempus. Praesent cursus sed metus sit amet rutrum. Donec tortor metus, commodo a ipsum bibendum, scelerisque dapibus metus. Praesent id nulla non lacus venenatis suscipit. Curabitur sodales maximus bibendum. Ut sit amet mauris non ligula porta consectetur. Sed ullamcorper suscipit neque vitae porttitor. Sed id augue ac felis cursus commodo. Fusce tristique laoreet sem ac sodales.</p>
+            <p> Cras porttitor aliquet sem eget ullamcorper. Fusce pharetra rutrum massa, vitae placerat odio porttitor eget. Vestibulum auctor aliquam ex nec consequat. Aliquam et aliquet ante, et volutpat neque. In hac habitasse platea dictumst. Aliquam neque dui, molestie quis felis sit amet, pellentesque suscipit dolor. Aliquam pretium est at tortor lobortis aliquet a non magna. Donec sed efficitur augue. Aliquam fringilla, lacus nec fermentum posuere, est nisl feugiat arcu, a vehicula est orci ac dui. Donec eu aliquet diam, sed molestie sem. Phasellus iaculis sed augue et pulvinar. Sed scelerisque posuere enim, in posuere quam finibus vel.</p>
+            <p> Nullam malesuada rhoncus eros ut ultrices. Ut sed mi feugiat, aliquam magna ut, cursus erat. Mauris dignissim, magna ut euismod placerat, purus ante rutrum elit, nec gravida nunc leo vel lacus. Integer consequat magna ut neque varius congue. Mauris euismod lacus mollis sem consequat rhoncus. Ut eget libero felis. Aenean tempor elit et enim convallis feugiat. Praesent ut ultrices metus, vel commodo leo. Mauris vel tellus laoreet, tincidunt turpis sed, ornare risus. In consequat lorem nec pulvinar mattis.</p>
+        </section>
+        
+        <script type="text/javascript">
+          $(window).on("scroll", function() {
+                if($(window).scrollTop()) {
+                      $('nav').addClass('black');
+                }
+                else {
+                      $('nav').removeClass('black');
+                }
+          })
+      </script>
+    </body>
+</html>
